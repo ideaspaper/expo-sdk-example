@@ -9,3 +9,5 @@ To run this project, you can follow the steps below:
 1. Install all the dependencies using `npm install`
 1. Run the project with `expo start`
 1. Scan the QR code using **Expo Go** on your phone
+
+![Demo](./assets-doc/demo.gif)
