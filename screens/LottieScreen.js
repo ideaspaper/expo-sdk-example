@@ -1,5 +1,5 @@
 import { useFocusEffect } from '@react-navigation/native';
-import { Box, Button, FormControl, Input, Stack, Text, View } from 'native-base';
+import { Box, Button, FormControl, Input, Stack } from 'native-base';
 import { useCallback, useRef } from 'react';
 import LottieView from 'lottie-react-native';
 
