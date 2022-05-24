@@ -57,12 +57,11 @@ const CameraScreen = () => {
               <VStack flex="1" space="3">
                 <ScrollView borderWidth="1" borderColor="gray.400" borderRadius="md" mb="3">
                   <Text color="black" m="2" selectable>
-                    {qrResult.data?.trim() || 'No result'}
+                    {qrResult.data?.trim() || 'No QR result'}
                   </Text>
                 </ScrollView>
               </VStack>
               <Button
-                mx="16"
                 leftIcon={<Icon as={Ionicons} name="search-circle" size="xl" />}
                 onPress={handlePressReset}
               >
