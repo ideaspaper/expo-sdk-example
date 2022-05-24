@@ -2,8 +2,8 @@ import { Box, ScrollView, Text, Button, VStack, Icon } from 'native-base';
 import { Camera, CameraType } from 'expo-camera';
 import { useState, useEffect, useCallback } from 'react';
 import { useFocusEffect } from '@react-navigation/native';
-import PermissionErrorPage from '../components/PermissionErrorPage';
 import { BarCodeScanner } from 'expo-barcode-scanner';
+import PermissionErrorPage from '../components/PermissionErrorPage';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
 const CameraScreen = () => {
