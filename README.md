@@ -1,6 +1,6 @@
-# React Native Example
+# Expo SDK Example
 
-This app is created as an example for Expo SDK.
+This app is created as an example for [Expo SDK](https://docs.expo.dev/versions/latest/).
 
 To run this project, you can follow the steps below:
 
