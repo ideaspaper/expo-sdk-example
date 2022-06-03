@@ -22,7 +22,7 @@ const LottieScreen = () => {
           source={require('./../assets/confetti.json')}
         />
         <LottieView loop={false} ref={animationHello} source={require('./../assets/hello.json')} />
-        <FormControl p="5" style={{ zIndex: 1 }} flex="1">
+        <FormControl p="3" style={{ zIndex: 1 }} flex="1">
           <Stack flex="1" space="5" justifyContent="space-between">
             <Box>
               <Stack>
